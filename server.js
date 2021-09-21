@@ -153,8 +153,8 @@ module.exports = {
             if ((votes.attached[i] == true) && (votes.userId[i] == id)) {
                 return i;
             }
-            return -1;
         }
+        return -1;
     },
 
     getStatus() {

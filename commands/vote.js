@@ -27,7 +27,7 @@ module.exports = {
                 }
             }
         } else {
-            interaction.reply('投票が開始されていません。 voteコマンドを使用して投票を開始してください。');
+            interaction.reply('投票が開始されていません。 startコマンドを使用して投票を開始してください。');
         }
     },
 }
