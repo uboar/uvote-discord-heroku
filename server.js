@@ -66,7 +66,7 @@ module.exports = {
         app.get('/', function (req, res) {
             res.render('./index.ejs', votes);
         });
-        app.listen(8080);
+        app.listen(process.env.PORT);
     },
 
     /*アイドル状態にする*/
