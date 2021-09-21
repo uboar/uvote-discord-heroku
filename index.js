@@ -23,7 +23,7 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-    //console.log(`${client.user.tag} でログインしています。`);
+    console.log(`${client.user.tag} でログインしています。`);
     server.servStart();
 });
 

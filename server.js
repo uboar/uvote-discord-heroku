@@ -67,6 +67,7 @@ module.exports = {
             res.render('./index.ejs', votes);
         });
         app.listen(process.env.PORT);
+        console.log(`listening on ${ process.env.PORT }` );
     },
 
     /*アイドル状態にする*/
